@@ -11,3 +11,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.logo-image {
+  width: 25%;
+}
