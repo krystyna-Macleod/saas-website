@@ -12,3 +12,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+header {
+  background-color: #b3b3b3;
+}
