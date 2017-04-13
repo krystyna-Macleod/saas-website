@@ -39,3 +39,8 @@ span {
 .ban-nin {
   background-color: #bfedec;
 }
+
+.cards-tools {
+  background-color: #fff;
+  border: 2px #f2f2 solid;
+}
