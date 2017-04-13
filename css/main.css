@@ -40,7 +40,18 @@ span {
   background-color: #bfedec;
 }
 
-.cards-tools {
+.img-tools {
+  margin: 0;
+  text-align: center;
+  width: 50%;
+}
+
+.card {
   background-color: #fff;
-  border: 2px #f2f2 solid;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+
+.tools {
+  background-color: #faa89c;
 }
