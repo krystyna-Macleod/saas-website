@@ -5,6 +5,10 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
 }
@@ -19,11 +23,7 @@ header {
 
 .ban-text {
   position: absolute;
-  top: 25%;
-}
-
-.ban-img1 {
-  position: relative;
+  top: 18%;
 }
 
 .ban-img {
@@ -41,4 +41,26 @@ h3 {
 p,
 span {
   font-family: "Lora", serif;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #cccccc;
+  display: none;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
 }
