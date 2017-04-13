@@ -32,14 +32,61 @@ span {
   font-family: "Lora", serif;
 }
 
-.nav-links {
-  background-color: #fff;
+/* dropdown menu - for all pages*/
+
+.dropbtn {
+  background-color: #bfedec;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+  right: 0;
+}
+
+.dropdown-content a {
   color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #faa89c;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #faa89c;
+  border: none;
+}
+
+/* Home page - css*/
+
+.nav-links {
+  background-color: #000;
+  color: #fff;
 }
 
 .ban-img {
   max-width: 50%;
 }
+
+/* Features page - css*/
 
 .ban-nin {
   background-color: #bfedec;
@@ -60,3 +107,7 @@ span {
 .tools {
   background-color: #faa89c;
 }
+
+/* Pricing page - css*/
+
+/* Sign up page - css*/
