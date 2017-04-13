@@ -112,3 +112,14 @@ span {
 /* Pricing page - css*/
 
 /* Sign up page - css*/
+fieldset {
+  border: 0;
+}
+
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before,
+textarea,
+select,
+input {
+  border-color: #faa89c;
+}
