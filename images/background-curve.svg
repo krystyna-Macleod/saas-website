@@ -37,6 +37,7 @@
 	.st31{fill:none;stroke:#231F20;stroke-width:1.1901;stroke-linecap:round;stroke-miterlimit:10;}
 	.st32{fill:none;stroke:#231F20;stroke-width:1.8237;stroke-linecap:round;stroke-miterlimit:10;}
 	.st33{opacity:0.6;fill:#FFFFFF;}
+	.st34{fill:#F47E6C;}
 </style>
 <g id="Layer_1">
 </g>
@@ -3847,7 +3848,7 @@
 	<path class="st33" d="M-9.7-40h1642l-2.3,1783.2C1175.2,1407.8,625.4,1256.7-12,1276L-9.7-40z"/>
 </g>
 <g id="Layer_4">
-	<path class="st25" d="M1630,1776c0,0,0-321.7,0-357.5c-726.8,0-742.2-307-1649.6-184.8l0,71.4C957.4,1230.7,819.8,1810,1630,1776z"
+	<path class="st34" d="M1630,1776c0,0,0-321.7,0-357.5c-726.8,0-742.2-307-1649.6-184.8l0,71.4C957.4,1230.7,819.8,1810,1630,1776z"
 		/>
 </g>
 </svg>

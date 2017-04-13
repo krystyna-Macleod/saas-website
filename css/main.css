@@ -17,6 +17,21 @@ header {
   background-color: #b3b3b3;
 }
 
+.ban-text {
+  position: absolute;
+  top: 25%;
+}
+
+.ban-img1 {
+  position: relative;
+}
+
+.ban-img {
+  max-width: 50%;
+  position: absolute;
+  bottom: 50%;
+}
+
 h1,
 h2,
 h3 {
