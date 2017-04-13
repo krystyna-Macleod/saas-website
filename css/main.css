@@ -21,10 +21,6 @@ header {
   background-color: #b3b3b3;
 }
 
-.ban-img {
-  max-width: 50%;
-}
-
 h1,
 h2,
 h3 {
@@ -34,6 +30,15 @@ h3 {
 p,
 span {
   font-family: "Lora", serif;
+}
+
+.nav-links {
+  background-color: #fff;
+  color: #000;
+}
+
+.ban-img {
+  max-width: 50%;
 }
 
 .ban-nin {
