@@ -128,6 +128,59 @@ a {
   background-color: #faa89c;
 }
 
+.our-plan {
+  background-color: #bfedec;
+}
+
+tbody th {
+  font-weight: normal;
+  font-style: italic;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #faa89c;
+}
+
+.package {
+  width: 5em;
+}
+
+.free {
+  width: 6em;
+}
+
+.basic {
+  width: 6em;
+}
+
+.mid {
+  width: 6em;
+}
+
+.advance {
+  width: 6em;
+}
+
+tfoot {
+  background-color: #faa89c;
+}
+
+table {
+  min-width: 25em;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+}
+
 */ Pricing page - css*/
 
 */ Sign up page - css*/
