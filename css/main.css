@@ -108,6 +108,15 @@ a {
 
 /* Features page - css*/
 
+.btn {
+  background-color: #faa89c;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #bfedec;
+}
+
 .ban-nin {
   background-color: #bfedec;
 }
