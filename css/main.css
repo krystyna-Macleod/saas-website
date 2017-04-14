@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 *, *::before, *::after {
@@ -32,7 +32,7 @@ span {
   font-family: Lora, serif;
 }
 
-*/ dropdown menu - for all pages*/
+/* dropdown menu - for all pages*/
 
 a {
   list-style: none;
@@ -95,7 +95,7 @@ a {
   border: none;
 }
 
-*/ Home page - css*/
+/* Home page - css*/
 
 .nav-links {
   background-color: #000;
@@ -106,7 +106,7 @@ a {
   max-width: 50%;
 }
 
-*/ Features page - css*/
+/* Features page - css*/
 
 .ban-nin {
   background-color: #bfedec;
@@ -120,7 +120,7 @@ a {
 
 .card {
   background-color: #fff;
-  border: 2px solid #0000;
+  border: 2px solid #000;
   border-radius: 8px;
 }
 
@@ -139,6 +139,7 @@ tbody th {
 
 tfoot {
   font-weight: bold;
+  background-color: #faa89c;
 }
 
 tbody tr:nth-child(odd) {
@@ -165,10 +166,6 @@ tbody tr:nth-child(odd) {
   width: 6em;
 }
 
-tfoot {
-  background-color: #faa89c;
-}
-
 table {
   min-width: 25em;
 }
@@ -181,9 +178,9 @@ table {
 
 }
 
-*/ Pricing page - css*/
+/* Pricing page - css*/
 
-*/ Sign up page - css*/
+/* Sign up page - css*/
 fieldset {
   border: 0;
 }
