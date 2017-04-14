@@ -24,15 +24,15 @@ header {
 h1,
 h2,
 h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 p,
 span {
-  font-family: "Lora", serif;
+  font-family: Lora, serif;
 }
 
-/* dropdown menu - for all pages*/
+*/ dropdown menu - for all pages*/
 
 a {
   list-style: none;
@@ -95,7 +95,7 @@ a {
   border: none;
 }
 
-/* Home page - css*/
+*/ Home page - css*/
 
 .nav-links {
   background-color: #000;
@@ -106,7 +106,7 @@ a {
   max-width: 50%;
 }
 
-/* Features page - css*/
+*/ Features page - css*/
 
 .ban-nin {
   background-color: #bfedec;
@@ -120,7 +120,7 @@ a {
 
 .card {
   background-color: #fff;
-  border: 2px solid #000000;
+  border: 2px solid #0000;
   border-radius: 8px;
 }
 
@@ -128,9 +128,9 @@ a {
   background-color: #faa89c;
 }
 
-/* Pricing page - css*/
+*/ Pricing page - css*/
 
-/* Sign up page - css*/
+*/ Sign up page - css*/
 fieldset {
   border: 0;
 }
