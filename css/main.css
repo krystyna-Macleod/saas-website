@@ -34,12 +34,31 @@ span {
 
 /* dropdown menu - for all pages*/
 
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.btn-link {
+  background-color: #bfedec;
+  color: #fff;
+  padding: .5em;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #faa89c;
+  color: #404040;
+}
+
 .dropbtn {
   background-color: #bfedec;
   color: #fff;
   padding: 5px;
   border: none;
   cursor: pointer;
+  border: 2px solid #bfedec;
+  border-radius: 5px;
 }
 
 .dropdown {
