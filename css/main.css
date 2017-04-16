@@ -35,7 +35,7 @@ span {
 /* dropdown menu - for all pages*/
 
 a {
-  list-style: none;
+  list-style-type: none;
   text-decoration: none;
 }
 
@@ -73,6 +73,8 @@ a {
   min-width: 50px;
   z-index: 1;
   right: 0;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .dropdown-content a {
