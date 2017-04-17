@@ -46,7 +46,7 @@ a {
   border-radius: 8px;
 }
 
-.btn:hover {
+.btn-link:hover {
   background-color: #faa89c;
   color: #404040;
 }
@@ -117,12 +117,6 @@ footer {
   background-color: #faa89c;
 }
 
-.card {
-  background-color: #ede3db;
-  border: 2px solid #623b0c;
-  border-radius: 8px;
-}
-
 .img-phone {
   width: 60%;
 }
@@ -154,7 +148,7 @@ footer {
 
 .card {
   background-color: #fff;
-  border: 2px solid #000;
+  border: 2px solid #dcdcdc;
   border-radius: 8px;
 }
 
