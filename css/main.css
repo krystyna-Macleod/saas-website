@@ -133,7 +133,7 @@ footer {
 }
 
 .img-tools {
-  width: 40%;
+  max-height: 7em;
 }
 
 .img-icons {
@@ -222,6 +222,10 @@ input {
   width: 65%;
 }
 
+.img-color {
+  width: 60%;
+}
+
 .img-prices {
   width: 15%;
   margin: 0 auto;
@@ -236,6 +240,10 @@ input {
 
   .table-wrapper {
     overflow: visible;
+  }
+
+  .img-flex {
+    width: 75%;
   }
 
 }
