@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <header class="nav pin push-0 pad-t">
+  <header class="nav pin push-0 pad-t-1-2">
     <div class="grid">
       <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
         <a href="index.html">
@@ -21,29 +21,28 @@
           </i>
         </a>
       </div>
+      <div class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2 gutter-1-2">
+        <nav class="right">
+          <ul class="list-group-inline list-group">
+            <li><a class="btn btn-link" href="tour.html">Features</a></li>
+            <li><a class="btn btn-link" href="pricing.html">Pricing</a></li>
+            <li><a class="btn btn-link" href="sign-up.html">Sign-up</a></li>
+          </ul>
+        </nav>
+      </div>
       <div class="unit xs-1-2 s-1-2 unit-m-hidden unit-l-hidden gutter-1-2">
         <nav class="right">
           <div class="dropdown push-1-2">
             <button class="dropbtn">Menu</button>
-            <ul class="dropdown-content">
-              <li><a href="index.html">Home</a></li>
+            <ul class="dropdown-content list-group">
               <li><a href="tour.html">Features</a></li>
               <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="">Sign-up</a></li>
+              <li><a href="sign-up.html">Sign-up</a></li>
             </ul>
           </div>
         </nav>
       </div>
-      <div class="unit unit-xs-hidden unit-s-hidden m-1-2 l-1-2">
-        <nav class="right">
-          <ul class="list-group-inline">
-            <li><a class="btn btn-link" href="index.html">Home</a></li>
-            <li><a class="btn btn-link" href="tour.html">Features</a></li>
-            <li><a class="btn btn-link" href="pricing.html">Pricing</a></li>
-            <li><a class="btn btn-link" href="">Sign-up</a></li>
-          </ul>
-        </nav>
-      </div>
+
     </div>
   </header>
 
@@ -69,47 +68,43 @@
 
         <div class="grid">
 
-          <div class="xs-1 s-1 m-1-4 l-1-4">
-            <div class="card">
-              <div>
-                <img class="img-prices" src="images/icons-happy.png" alt="">
-              </div>
-              <div class="gutter-1-2 push-1-4">
-                <input type="radio" id="free">
-                <label for="free">Free</label>
-              </div>
+          <div class="unit xs-1 s-1-2 m-1-2 l-1-4 card">
+            <div class="center-flow">
+              <img class="img-prices" src="images/icons-happy.png" alt="">
             </div>
-
-            <div class="card island-1-4">
-              <div>
-                <img class="img-prices" src="images/icons-happy.png" alt="">
-              </div>
-              <div class="gutter-1-2 push-1-4">
-                <input type="radio" id="basic">
-                <label for="basic">Basic Set</label>
-              </div>
+            <div class="gutter-1-2 push-1-4">
+              <input type="radio" id="free">
+              <label for="free">Free</label>
             </div>
           </div>
 
-          <div class="xs-1 s-1 m-1-4 l-1-4">
-            <div class="card">
-              <div>
-                <img class="img-prices" src="images/icons-happy.png" alt="">
-              </div>
-              <div class="gutter-1-2 push-1-4">
-                <input type="radio" id="mid">
-                <label for="mid">Mid Set</label>
-              </div>
+          <div class="unit xs-1 s-1-2 m-1-2 l-1-4 card">
+            <div>
+              <img class="img-prices" src="images/icons-happy.png" alt="">
             </div>
+            <div class="gutter-1-2 push-1-4">
+              <input type="radio" id="basic">
+              <label for="basic">Basic Set</label>
+            </div>
+          </div>
 
-            <div class="card">
-              <div>
-                <img class="img-prices" src="images/icons-happy.png" alt="">
-              </div>
-              <div class="gutter-1-2 push-1-4">
-                <input type="radio" id="advance">
-                <label for="advance">Advance Set</label>
-              </div>
+          <div class="unit xs-1 s-1-2 m-1-2 l-1-4 card">
+            <div>
+              <img class="img-prices" src="images/icons-happy.png" alt="">
+            </div>
+            <div class="gutter-1-2 push-1-4">
+              <input type="radio" id="mid">
+              <label for="mid">Mid Set</label>
+            </div>
+          </div>
+
+          <div class="unit xs-1 s-1-2 m-1-2 l-1-4 card">
+            <div>
+              <img class="img-prices" src="images/icons-happy.png" alt="">
+            </div>
+            <div class="gutter-1-2 push-1-4">
+              <input type="radio" id="advance">
+              <label for="advance">Advance Set</label>
             </div>
           </div>
 
@@ -134,7 +129,7 @@
 
               <div class="gutter-1-2 pad-t-1-2">
                 <label class="pad-b-1-8" for="email">Email</label>
-                <input type="email" name="name">
+                <input id="email" type="email">
               </div>
             </div>
 
