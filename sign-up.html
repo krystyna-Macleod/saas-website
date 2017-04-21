@@ -48,24 +48,28 @@
   </header>
 
   <main>
-    <section class="push-2 pad-b">
-      <div class="ban-img1">
-        <img class="img-flex" src="images/background-pricing.svg" alt="">
+
+    <section class="banner push-1-2 pad-b-2 relative">
+      <div class="embed embed-16by9">
+        <img class="embed-item" src="images/background-pricing.svg" alt="">
       </div>
-      <div class="ban-text gutter">
-        <h1 class="push-1-8">Ninjai Emoji - Sign Up</h1>
-      </div>
-      <div>
-        <img class="img-flex" src="images/icons-price.png" alt="">
+      <div class="grid absolute pin-tc w-1 gutter-1-2 pad-t-1-2 center-flow">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
+          <h1 class="push-1-2 zetta">Ninjai Emoji—Sign Up</h1>
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 sin-img center-flow">
+          <img class="img-flex" src="images/icons-price.png" alt="">
+        </div>
       </div>
     </section>
-    <form method="post" action="http://formspree.io/krys.a.dy20@gmail.com">
-      <fieldset>
-        <legend>Chose a Plan</legend>
 
-        <div>
-          <div class="card island-2">
-            <img class="img-flex" src="images/icons-happy.png" alt="">
+    <form class="wrapper" method="post" action="http://formspree.io/krys.a.dy20@gmail.com">
+      <fieldset class="push-1-4 gutter-1-2">
+        <legend class="exa">Chose a Plan</legend>
+
+        <div class="center-flow">
+          <div class="card island-1-4">
+            <img class="img-prices" src="images/icons-happy.png" alt="">
           </div>
           <div class="gutter-1-2 push-1-4">
             <input type="radio" id="free">
@@ -73,9 +77,9 @@
           </div>
         </div>
 
-        <div>
-          <div class="card island-2">
-            <img class="img-flex" src="images/icons-happy.png" alt="">
+        <div class="center-flow">
+          <div class="card island-1-4">
+            <img class="img-prices" src="images/icons-happy.png" alt="">
           </div>
           <div class="gutter-1-2 push-1-4">
             <input type="radio" id="basic">
@@ -83,9 +87,9 @@
           </div>
         </div>
 
-        <div>
-          <div class="card island-2">
-            <img class="img-flex" src="images/icons-happy.png" alt="">
+        <div class="center-flow">
+          <div class="card island-1-4">
+            <img class="img-prices" src="images/icons-happy.png" alt="">
           </div>
           <div class="gutter-1-2 push-1-4">
             <input type="radio" id="mid">
@@ -93,9 +97,9 @@
           </div>
         </div>
 
-        <div>
-          <div class="card island-2">
-            <img class="img-flex" src="images/icons-happy.png" alt="">
+        <div class="center-flow">
+          <div class="card island-1-4">
+            <img class="img-prices" src="images/icons-happy.png" alt="">
           </div>
           <div class="gutter-1-2 push-2">
             <input type="radio" id="advance">
@@ -105,28 +109,44 @@
 
       </fieldset>
 
-      <fieldset>
-        <legend>Sign Up</legend>
+      <fieldset class="gutter-1-2">
+        <legend class="exa">Sign Up</legend>
 
-        <div class="gutter-1-2 pad-t-1-2">
-          <label class="pad-b-1-8" for="name">First Name</label>
-          <input id="name" name="name">
-        </div>
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+              <div class="gutter-1-2 pad-t-1-2">
+                <label class="pad-b-1-8" for="username">User Name</label>
+                <input id="username" name="name">
+              </div>
 
-        <div class="gutter-1-2 pad-t-1-2">
-          <label class="pad-b-1-8" for="last-name">Last Name</label>
-          <input id="last-name" name="name">
-        </div>
+              <div class="gutter-1-2 pad-t-1-2">
+                <label class="pad-b-1-8" for="password">Password</label>
+                <input id="password" name="name">
+              </div>
 
-        <div class="gutter-1-2 pad-t-1-2">
-          <label class="pad-b-1-8" for="date">Date of Birth</label>
-          <input type="date" id="date">
-        </div>
+              <div class="gutter-1-2 pad-t-1-2">
+                <label class="pad-b-1-8" for="email">Email</label>
+                <input type="email" name="email">
+              </div>
+            </div>
 
-        <div class="gutter-1-2 pad-t-1-2">
-          <label class="pad-b-1-8" for="email">Email</label>
-          <input type="email" name="email">
-        </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+              <div class="gutter-1-2 pad-t-1-2">
+                <label class="pad-b-1-8" for="name">First Name</label>
+                <input id="name" name="name">
+              </div>
+
+              <div class="gutter-1-2 pad-t-1-2">
+                <label class="pad-b-1-8" for="last-name">Last Name</label>
+                <input id="last-name" name="name">
+              </div>
+
+              <div class="gutter-1-2 pad-t-1-2">
+                <label class="pad-b-1-8" for="date">Date of Birth</label>
+                <input type="date" id="date">
+              </div>
+            </div>
+          </div>
 
       </fieldset>
       <hr>

@@ -232,3 +232,11 @@ select,
 input {
   border-color: #faa89c;
 }
+
+.sin-img {
+  width: 65%;
+}
+
+.img-prices {
+  width: 15%;
+}
