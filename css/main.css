@@ -21,6 +21,17 @@ header {
   background-color: #b3b3b3;
 }
 
+.banner {
+  height: 15em;
+  background-image: url("../images/background-pattern.jpg");
+  background-repeat: repeat;
+  background-size: 250px auto;
+}
+
+.feature-body {
+  padding-top: 7em;
+}
+
 h1,
 h2,
 h3 {
@@ -104,7 +115,7 @@ footer {
 }
 
 .ban-img {
-  max-width: 70%;
+  width: 19em;
 }
 
 .price-home {
@@ -236,6 +247,14 @@ input {
   width: .8em;
 }
 
+@media only screen and (min-width: 38em) {
+
+  .feature-body {
+    padding-top: 1em;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
 
   .table-wrapper {
@@ -246,12 +265,16 @@ input {
     width: 75%;
   }
 
+  .feature-body {
+    padding-top: 0.5em;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
 
-  .ban-img {
-    max-width: 100%;
+  .feature-body {
+    padding-top: 0.5em;
   }
 
 }
