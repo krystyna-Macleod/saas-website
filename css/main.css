@@ -210,6 +210,16 @@ table {
 
 /* Pricing page - css*/
 
+.card-price {
+  background-color: #f5f5f5;
+  border: 3px solid #bfedec;
+  border-radius: 8px;
+}
+
+.img-price {
+  width: 50%;
+}
+
 /* Sign up page - css*/
 fieldset {
   border: 0;
