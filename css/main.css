@@ -112,7 +112,7 @@ footer {
 }
 
 .img-phone {
-  width: 60%;
+  width: 50%;
 }
 
 .tips {
@@ -244,6 +244,14 @@ input {
 
   .img-flex {
     width: 75%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .ban-img {
+    max-width: 100%;
   }
 
 }
