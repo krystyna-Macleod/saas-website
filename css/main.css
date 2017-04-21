@@ -32,8 +32,6 @@ span {
   font-family: Lora, serif;
 }
 
-/* dropdown menu - for all pages*/
-
 a {
   list-style-type: none;
   text-decoration: none;
@@ -96,13 +94,10 @@ a {
   background-color: #faa89c;
   border: none;
 }
-/* all pages - css*/
 
 footer {
   background-color: #dcdcdc;
 }
-
-/* Home page - css*/
 
 .nav-links {
   background-color: #000;
@@ -125,8 +120,6 @@ footer {
   background-color: #bfedec;
 }
 
-/* Features page - css*/
-
 .btn {
   background-color: #faa89c;
   border: none;
@@ -141,7 +134,11 @@ footer {
 }
 
 .img-tools {
-  width: 50%;
+  width: 40%;
+}
+
+.img-icons {
+  width: 35%;
 }
 
 .card {
@@ -200,8 +197,6 @@ table {
   background-color: #f5f5f5;
 }
 
-/* Pricing page - css*/
-
 .card-price {
   background-color: #f5f5f5;
   border: 3px solid #bfedec;
@@ -212,7 +207,6 @@ table {
   width: 50%;
 }
 
-/* Sign up page - css*/
 fieldset {
   border: 0;
 }
