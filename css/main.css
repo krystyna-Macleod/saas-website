@@ -246,6 +246,17 @@ input {
   height: .8em;
   width: .8em;
 }
+.embed-item, .embed__item {
+  overflow: visible;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .embed-item, .embed__item {
+    overflow: visible;
+  }
+
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -266,7 +277,7 @@ input {
   }
 
   .feature-body {
-    padding-top: 0.5em;
+    padding-top: .5em;
   }
 
 }
@@ -274,7 +285,7 @@ input {
 @media only screen and (min-width: 90em) {
 
   .feature-body {
-    padding-top: 0.5em;
+    padding-top: .5em;
   }
 
 }
