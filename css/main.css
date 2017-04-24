@@ -247,10 +247,20 @@ input {
   width: .8em;
 }
 
+.img-flex {
+  display: inline-block;
+  width: 50%;
+}
+
 @media only screen and (min-width: 38em) {
 
   .feature-body {
     padding-top: 1em;
+  }
+
+  .img-flex {
+    display: inline-block;
+    width: 60%;
   }
 
 }
