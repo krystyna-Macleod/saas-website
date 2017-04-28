@@ -287,4 +287,8 @@ input {
     padding-top: .5em;
   }
 
+  .embed-item {
+    overflow: hidden;
+  }
+
 }
